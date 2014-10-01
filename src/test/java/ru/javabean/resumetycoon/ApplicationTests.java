@@ -1,4 +1,4 @@
-package demo;
+package ru.javabean.resumetycoon;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

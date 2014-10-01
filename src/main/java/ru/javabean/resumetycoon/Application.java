@@ -1,4 +1,4 @@
-package demo;
+package ru.javabean.resumetycoon;
 
 import com.google.common.collect.ImmutableMap;
 import org.springframework.boot.SpringApplication;
@@ -18,7 +18,7 @@ public class Application {
 
     @RequestMapping("/")
     Map home() {
-        return ImmutableMap.of("chef", "pupa");
+        return ImmutableMap.of("master", "chief");
     }
 
     public static void main(String[] args) {
